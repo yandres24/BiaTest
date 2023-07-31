@@ -1,0 +1,27 @@
+name: biatest_domain
+description: Clean Domain Layer
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+  biatest_data:
+    path: ../data
+
+dependency_overrides:
+  flutter_test:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  json_serializable: ^6.6.2
+  build_runner: ^2.4.4
+  flutter_lints: ^2.0.1
+

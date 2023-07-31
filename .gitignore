@@ -23,5 +23,262 @@ doc/api/
 *.js.deps
 *.js.map
 
+
+# Miscellaneous
+*.class
+*.lock
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/*
+
+# Visual Studio Code related
+.classpath
+.project
+.settings/
+.vscode/*
+
+# Flutter repo-specific
+/bin/cache/
+/bin/mingit/
+/dev/benchmarks/mega_gallery/
+/dev/bots/.recipe_deps
+/dev/bots/android_tools/
+/dev/docs/doc/
+/dev/docs/flutter.docs.zip
+/dev/docs/lib/
+/dev/docs/pubspec.yaml
+/dev/integration_tests/**/xcuserdata
+/dev/integration_tests/**/Pods
+/packages/flutter/coverage/
+version
+
+# packages file containing multi-root paths
+.packages.generated
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+flutter_*.png
+linked_*.ds
+unlinked.ds
+unlinked_spec.ds
+.fvm/
+
+# Android related
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/key.properties
+**/android/.idea/
+*.jks
+
+# iOS/XCode related
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/*sync/
+**/ios/**/.sconsign.dblite
+**/ios/**/.tags*
+**/ios/**/.vagrant/
+**/ios/**/DerivedData/
+**/ios/**/Icon?
+**/ios/**/Pods/
+**/ios/**/.symlinks/
+**/ios/**/profile
+**/ios/**/xcuserdata
+**/ios/.generated/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# Coverage
+coverage/
+
+# Submodules
+!pubspec.lock
+packages/**/pubspec.lock
+
+# Web related
+lib/generated_plugin_registrant.dart
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Exceptions to the above rules.
+!**/ios/**/default.mode1v3
+!**/ios/**/default.mode2v3
+!**/ios/**/default.pbxuser
+!**/ios/**/default.perspectivev3
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+!/dev/ci/**/Gemfile.lock
+!.vscode/launch.json
+!.idea/codeStyles/
+!.idea/dictionaries/
+!.idea/runConfigurations/
+Share
+Improve this answer
+Follow
+answered Jun 2, 2021 at 7:25
+Adam Smaka's user avatar
+Adam Smaka
+5,94733 gold badges5050 silver badges5353 bronze badges
+Add a comment
+Your Answer
+Sign up or log in
+Post as a guest
+Name
+Email
+Required, but never shown
+
+By clicking “Post Your Answer”, you agree to our terms of service and acknowledge that you have read and understand our privacy policy and code of conduct.
+
+Not the answer you're looking for? Browse other questions tagged androidiosandroid-studioflutter or ask your own question.
+The Overflow Blog
+Announcing OverflowAI
+Behind the scenes with the folks building OverflowAI (Ep. 594)
+Featured on Meta
+Stack Overflow at WeAreDevelopers World Congress in Berlin
+Preview of Search and Question-Asking Powered by GenAI
+Temporary policy: Generative AI (e.g., ChatGPT) is banned
+
+Report this ad
+
+Report this ad
+14 people chatting
+Android
+19 mins ago - WarrenFaith
+WarrenFaith: 19 mins ago
+Tim: 41 mins ago
+Pochmurnik: 1 hour ago
+JBis: 2 days ago
+Mark O'Sullivan: Jul 11 at 0:00
+JamesBot: Jun 13 at 12:27
+nyconing: Apr 18 at 4:22
+Tamil iOS and Web Developers
+2 hours ago - Boominadha Prakash M
+Boominadha Prakash M: 2 hours ago
+Linked
+46
+Should I .gitignore my gradlew?
+7
+Which files to upload to version control from a Flutter project?
+-1
+push specific files to GitHub
+0
+Auto generating files by flutter run
+Related
+117
+Typical .gitignore file for an Android app
+3
+.gitignore Advice for Android Project
+1384
+What should be in my .gitignore for an Android Studio project?
+0
+".gitignore" for Android Studio?
+0
+gitignoring Android Studio app
+18
+Ideal Android Studio gitignore file
+0
+How do I handle .gitignore in Android Studio?
+1
+.gitignore for Android Studio project with developers using Ubuntu and Windows
+7
+How to use git with Flutter and Android Studio?
+7
+Which files to upload to version control from a Flutter project?
+Hot Network Questions
+Is it reasonable to stop working on my master's project during the time I'm not being paid?
+How to convert all non-white parts of an image to black?
+is there a limit of speed cops can go on a high speed pursuit?
+Who is Jesus speaking of in Mark 12:26-27? Who is Jesus referencing as "He" in verse 27?
+Compute the logarithm of a matrix
+.fr: How can I receive spam because of registering a domain?
+What is the beam width of the antenna of Voyager 2?
+Isn’t everything absurdly improbable?
+How do we control a 7-segment display with a rotary switch to ground and 12v supply?
+Why do we allow discontinuous conduction mode (DCM)?
+Why would a highly advanced society still engage in extensive agriculture?
+Should I risk riding these tires?
+What is this specific tool?
+Finding a Closed Form for a Grade School Art Project
+Flight from Lyon to Düsseldorf cancelled 15 minutes prior to departure. Am I elgible for compensation?
+How does Greenberg’s approach to language universals differ from Chomsky’s?
+Heat capacity of (ideal) gases at constant pressure
+Is my logo kerned right?
+Random displacement of the vertices of the sphere from the center outwards
+The 01:00 in 1 January 1970 at 01:00
+Should I be concerned about these warm, seemingly blackened receptacles in a bedroom?
+Can you perform swaps?
+What is known about the homotopy type of the classifier of subobjects of simplicial sets?
+777-300ER venting something from left engine outboard side - what is it?
+ Question feed
+
+STACK OVERFLOW
+Questions
+Help
+PRODUCTS
+Teams
+Advertising
+Collectives
+Talent
+COMPANY
+About
+Press
+Work Here
+Legal
+Privacy Policy
+Terms of Service
+Contact Us
+Cookie Settings
+Cookie Policy
+STACK EXCHANGE NETWORK
+Technology
+Culture & recreation
+Life & arts
+Science
+Professional
+Business
+API
+Data
+Blog
+Facebook
+Twitter
+LinkedIn
+Instagram
+Site design / logo © 2023 Stack Exchange Inc; user contributions licensed under CC BY-SA. rev 2023.7.27.43548
